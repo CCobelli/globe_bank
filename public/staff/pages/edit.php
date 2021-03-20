@@ -1,4 +1,5 @@
 <?php
+
 require_once('../../../private/initialize.php');
 
 if(!isset($_GET['id'])) {
@@ -59,6 +60,9 @@ if(is_post_request()) {
         <input type="submit" value="Edit Page" />
       </div>
     </form>
+
   </div>
+
 </div>
+
 <?php include(SHARED_PATH . '/staff_footer.php'); ?>
